@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body{
+   background-image: url("/images/Capture.PNG") ;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+} */
+
+.jumbotron {
+    background-image: url("../images/Capture.PNG");
+    -webkit-background-size: 100% 100%;
+    padding: 10px;
+    padding-bottom: 20em;
+    background-size: 100% 100%;
+}
+
+#brand_name {
+    color: white;
+    border-top: 2px solid white;
+    padding: 10px;
+    border-radius: 7px;
+    border-left: 2px solid white;
+    margin-top: 35;
+}
+
+
+.mynav-item {
+    color: white;
+    font-size: large;
+    /* border-bottom: 2px solid white; */
+    padding: 5px;
+}
+
+.nav-link {
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.mynav-item:hover {
+    margin-top: 30px;
+    font-weight: bolder;
+    border-top: 1px solid white;
+    border-radius: 7px;
+    border-right: 1px solid white;
+
+}
+
+
