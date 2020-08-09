@@ -10,6 +10,9 @@
     <link href="css/style.css" rel="stylesheet">
 
     <style>
+        body {
+            overflow: hidden;
+        }
 
         /* body{
             background-image: url("../images/home5.jpg");
@@ -26,45 +29,6 @@
             background-repeat: no-repeat;
             background-size: cover;
             height: 100vh;
-            width: 100%;
-        }
-
-        #welcome_login {
-            background-color: #3fc3d4;
-            color: white;
-
-        }
-
-        #login_form {
-            background-color: #3f5160;
-            height: 600px;
-            display: flex;
-            color: white;
-        }
-
-        .form-div {
-            margin-top: 5%;
-            box-shadow: 5px 10px 10px 10px;
-        }
-
-        #signup {
-            color: yellow;
-        }
-
-        #signup:hover {
-            color: violet;
-
-        }
-
-        .message {
-            border: 3px solid black;
-            border-radius: 5px;
-            font-size: 23px;
-            text-align: center;
-            padding: 5px;
-            background-color: teal;
-            color: white;
-            width: 75%;
         }
     </style>
     <title>Hello, world!</title>
@@ -78,19 +42,17 @@
         <!-- container for form and welcome screen-->
         <div class="col-md-8 form-div">
             <div class="row">
-                <div class="col-md-7 text-center display-4 py-4" id="welcome_login">
+                <div class="col-md-7 text-center display-4 py-4 welcome_login">
 
                     Welcome to MyNote
 
                     <div style="text-align: justify; font-size: 20px;">
                         <ul class="px-4 my-4">
                             <li class="py-4">Please Login or SignUp to continue. <br></li>
-                            <li>If you are student of GLA University then please Login with Official id.</li>
-                        </ul>
 
                     </div>
                 </div>
-                <div class="col-md-5 d-flex align-items-center justify-content-center" id="login_form">
+                <div class="col-md-5 d-flex align-items-center justify-content-center login_form">
 
                     <form action="templetes/home.html">
                         <div class="form-group">

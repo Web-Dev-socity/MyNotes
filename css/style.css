@@ -10,7 +10,7 @@
    background-attachment: fixed;
    background-size: cover;
 } */
-
+/*home page css*/
 .jumbotron {
     background-image: url("../images/Capture.PNG");
     -webkit-background-size: 100% 100%;
@@ -50,4 +50,49 @@
 
 }
 
+/*sign up or login css*/
+.welcome_login {
+    background-color: #3fc3d4;
+    color: white;
+}
+
+.login_form {
+    background-color: #3f5160;
+    height: 600px;
+    display: flex;
+    color: white;
+}
+
+.form-div {
+    margin-top: 5%;
+    box-shadow: 5px 10px 10px 10px;
+}
+
+#signup {
+    color: yellow;
+}
+
+#signup:hover {
+    color: violet;
+
+}
+
+#login {
+    color: yellow;
+}
+
+#login:hover {
+    color: violet;
+}
+
+.message {
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 23px;
+    text-align: center;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    width: 75%;
+}
 

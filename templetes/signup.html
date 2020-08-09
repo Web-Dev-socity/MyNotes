@@ -7,18 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 
     <style>
 
-        /* body{
-            background-image: url("../images/home5.jpg");
-            background-attachment: fixed;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            backdrop-filter: blur(1px);
-        } */
+        body {
+            overflow: hidden;
+        }
 
         .background {
             background-image: url("../images/back.jpg");
@@ -28,46 +23,8 @@
             height: 100vh;
             width: 100%;
         }
-
-        #welcome_login {
-            background-color: #3fc3d4;
-            color: white;
-
-        }
-
-        #login_form {
-            background-color: #3f5160;
-            height: 600px;
-            display: flex;
-            color: white;
-        }
-
-        .form-div {
-            margin-top: 5%;
-            box-shadow: 5px 10px 10px 10px;
-        }
-
-        #signup {
-            color: yellow;
-        }
-
-        #signup:hover {
-            color: violet;
-
-        }
-
-        .message {
-            border: 3px solid black;
-            border-radius: 5px;
-            font-size: 23px;
-            text-align: center;
-            padding: 5px;
-            background-color: teal;
-            color: white;
-            width: 75%;
-        }
     </style>
-    <title>Hello, world!</title>
+    <title>Sign up: MyNotes</title>
 </head>
 <body class="background">
 
@@ -78,7 +35,7 @@
         <!-- container for form and welcome screen-->
         <div class="col-md-8 form-div">
             <div class="row">
-                <div class="col-md-7 text-center display-4 py-4" id="welcome_login">
+                <div class="col-md-7 text-center display-4 py-4 welcome_login">
 
                     Welcome to MyNote
 
@@ -90,7 +47,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-5 d-flex align-items-center justify-content-center" id="login_form">
+                <div class="col-md-5 d-flex align-items-center justify-content-center login_form">
 
                     <form action="../index.html">
                         <div class="form-row">
@@ -126,7 +83,7 @@
                         <div class="form-group form-check">
                         </div>
                         <button class="btn btn-info btn-block my-4" type="submit">Sign up</button>
-                        <div>already have a account? <a href="../index.html" id="signup"> login</a></div>
+                        <div>already have a account? <a href="../index.html" id="login"> login</a></div>
 
                     </form>
 
